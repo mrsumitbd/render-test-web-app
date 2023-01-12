@@ -63,5 +63,5 @@ def make_prediction():
 
 
 # Call app.run(debug=True) when python script is called
-if __name__ == '__main__':
-	app.run(debug=True)
+#if __name__ == '__main__':
+#	app.run(debug=True)
