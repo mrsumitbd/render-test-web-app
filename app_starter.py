@@ -5,7 +5,7 @@ import pandas as pd
 from flask import Flask, request, Response, render_template, jsonify
 
 # initialize the flask app
-app = Flask('myApp')
+app = Flask(__name__)
 
 # route 1: hello world
 @app.route('/')
